@@ -54,11 +54,11 @@ string game::comparison(string result)
 		}
 		if (result == "paper")
 		{
-			playerWins++;
+			computerWins++;
 		}
 		if (result == "scissors")
 		{
-			computerWins++;
+			playerWins++;
 		}
 	}
 	else if (userInput == "paper" || userInput == "p"|| userInput=="Paper")
