@@ -26,21 +26,21 @@ void game::displayGame()
 }
 string game::play()
 {
-	int randGenator= rand() % 10 + 1;
-	string randResult;
-	if (randGenator <= 3)
+	int randomGenerator= rand() % 10 + 1;
+	string randomResult;
+	if (randomGenerator <= 3)
 	{
-		randResult=aArray[2];// scissors
+		randomResult=aArray[2];// scissors
 	}
-	else if (randGenator <= 6)
+	else if (randomGenerator <= 6)
 	{
-		randResult=aArray[1]; //paper
+		randomResult=aArray[1]; //paper
 	}
 	else
 	{
-		randResult=aArray[0]; //rock
+		randomResult=aArray[0]; //rock
 	}
-	return comparison(randResult);
+	return comparison(randomResult);
 }
 string game::comparison(string result)
 {
