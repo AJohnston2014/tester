@@ -40,6 +40,6 @@ int main()
 					else
 						uPlay = false;
 				}
-		} while (uPlay == true);
+		} while (uPlay );
 
 }

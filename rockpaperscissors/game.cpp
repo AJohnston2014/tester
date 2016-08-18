@@ -17,7 +17,7 @@ game::game(string input)
 }
 game::~game()
 {
-	//delete[] aArray;
+	
 }
 void game::displayGame()
 {
